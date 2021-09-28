@@ -1,0 +1,19 @@
+﻿@model web_api.Models.DavetiyeModel
+@{
+    ViewBag.Title = "Teşekkür ederim";
+}
+
+<h1>Teşekkürler @Model.Ad</h1>
+
+<div class="lead">
+    @if (Model.KatılmaDurumu==true)
+    {
+        @:Gelmene Çok Sevindim :) Bütün hazırlıklar tamamlandı..!
+        @Html.Action("Katilanlar","Home")
+    }
+    else
+    {
+        @:Gelmeyecek olmana çok üzüldüm :( Bunu bildirdiğin için teşekkür ederim.
+    }
+</div>
+
