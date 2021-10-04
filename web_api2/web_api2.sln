@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web_api2", "web_api2.csproj", "{ED10EECA-2E9D-4A48-83F2-3D39D56FC547}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQUERYApp", "..\JQUERYApp\JQUERYApp.csproj", "{627F148F-538E-48F6-B7E4-E17008367172}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ED10EECA-2E9D-4A48-83F2-3D39D56FC547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED10EECA-2E9D-4A48-83F2-3D39D56FC547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED10EECA-2E9D-4A48-83F2-3D39D56FC547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627F148F-538E-48F6-B7E4-E17008367172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627F148F-538E-48F6-B7E4-E17008367172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627F148F-538E-48F6-B7E4-E17008367172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627F148F-538E-48F6-B7E4-E17008367172}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
